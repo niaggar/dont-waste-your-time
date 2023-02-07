@@ -1,0 +1,21 @@
+
+:root {
+  --gray-1: #4A4A43;
+  --gray-2: #333;
+  --gray-3: #383835;
+  --light-gray: #C7C7C7;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: var(--light-gray);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--gray-3);
+}
